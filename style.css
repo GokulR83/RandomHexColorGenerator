@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    border: none;
+    list-style: none;
+    font-family: 'Victor Mono', monospace;
+    text-decoration: none;
+}
+body{
+    background-color: #f1f509;
+}
+h4{
+    color: blueviolet;
+}
+.nav-center{
+    width: 100%;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.copy-btn{
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
